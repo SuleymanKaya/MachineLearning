@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Created on Sat Apr 27 20:28:18 2019
 
@@ -9,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-veriler=pd.read_csv(r'C:\Users\suleyman.kaya\Desktop\DEDAŞ Ar-Ge Merkezi\Bilgi Kaynakları\Egitim\Python ile Makine Ögrenmesi\eksikveriler.csv', engine='python')
+veriler=pd.read_csv('eksikveriler.csv')
 
 print(veriler)
 
