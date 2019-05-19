@@ -12,7 +12,7 @@ import pandas as pd
 from sklearn.metrics import confusion_matrix
 
 
-veriler=pd.read_csv(r'C:\Users\suleyman.kaya\Desktop\DEDAŞ Ar-Ge Merkezi\Bilgi Kaynakları\Egitim\Python ile Makine Ögrenmesi\Siniflandirma\veriler.csv', engine='python')
+veriler=pd.read_csv('veriler.csv')
 
 x= veriler.iloc[:,1:4].values
 y= veriler.iloc[:,4:].values
