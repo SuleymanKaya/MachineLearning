@@ -11,8 +11,6 @@ import matplotlib.pyplot as plt
 
 veriler=pd.read_csv('reklamverisi.csv')
 
-#Upper Confidence Bound (UCB) Algoritması
-
 import random
 
 N = 10000 # 10.000 tıklama
@@ -39,7 +37,6 @@ for n in range(0,N):
     else:
         sifirlar[ad]=sifirlar[ad]+1
         
-   
     toplam = toplam + odul
     
 print('Toplam Odul:')   
