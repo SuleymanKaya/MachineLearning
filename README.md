@@ -1,2 +1,2 @@
 # MachineLearning
-My works about machine learning
+Machine Learning Education Codes
